@@ -10,51 +10,6 @@ textarea {
     color: #222;
 }
 
-.ima:hover 
-{ 
-
-position:relative; 
--webkit-animation:mymov 100s; /*Safari y Chrome*/ 
--webkit-border-image: 0 0 5px blue;
--moz-border-image: 0 0 5px blue;
--ms-border-image: 0 0 5px blue;
-border-radius: 0 0 35px blue;
-} 
-
-@-webkit-keyframes mymov /* Safari y Chrome */ 
-{ 
-0%   {top:0px; left:0px;}  
-0.3%  {top:-30px; left:0px;}
-} 
-
-.ima 
-{ 
-
-top:0px; left:0px;
-position:relative;
--webkit-animation:mymovestatic 1s infinite;
-}
-
-.cuadro:hover 
-{ 
-
-background:red; 
-position:relative; 
--webkit-animation:mymove 1s infinite;
-} 
-
-@-webkit-keyframes mymove /* Safari y Chrome */ 
-{ 
-0%   {top:0px; left:0px;}  
-30%  {top:-40px; left:0px;}  
-40%  {top:-40px; left:0px;-webkit-transform:rotate(7deg);}
-50%  {top:-40px; left:0px;-webkit-transform:rotate(-7deg);}
-60%  {top:-40px; left:0px;-webkit-transform:rotate(7deg);}
-70%  {top:-40px; left:0px;-webkit-transform:rotate(-7deg);}
-100%  {top:0px; left:0px;}
-} 
-
-
 body {
     font-size: 16px;
     line-height: 1.4;
@@ -140,17 +95,16 @@ header
 .color2
 {
     background-color:
-rgba(57, 173, 47, 0.9);
+rgba(51, 173, 41, 0.21);
 }
 .color3
 {
-        background-color:
-    rgba(18, 108, 125, 0.9999);
+    color: rgb(88, 168, 63);
 }
 .color4
 {
     background-color:
-rgba(18, 108, 125, 0.6);
+rgba(248, 139, 36, 0.92);
 }
 
 
