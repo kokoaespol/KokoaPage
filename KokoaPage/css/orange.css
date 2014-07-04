@@ -1,0 +1,244 @@
+::selection {
+	background:#1C532A;
+}
+::-moz-selection {
+	background:#1C532A;
+}
+
+
+
+/** 02. Typography
+ **************************************************************** **/
+.btn-custom, .btn-custom.active {
+	background:#1C532A;
+	background-image: -webkit-gradient(linear,left 0,left 100%,from(#AADD29),to(#1C532A));
+	background-image: -webkit-linear-gradient(top,#AADD29 0,#1C532A 100%);
+	background-image: -moz-linear-gradient(top,#AADD29 0,#1C532A 100%);
+	background-image: linear-gradient(to bottom,#AADD29 0,#1C532A 100%);
+	background-image: -moz-linear-gradient(top,#AADD29 0,#1C532A 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff28973',endColorstr='#ff1C532A',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	border-color: #fff;
+	color:#fff;
+	text-shadow:#1C532A 1px 1px 1px;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active {
+	background:#ee5939;
+	background-color:#1C532A;
+	background-position:0 -30px;
+	border-color: #fff;
+	color:#fff;
+}
+
+a, a:hover {
+	color:#1C532A;
+}
+
+.rounded-icon {
+	color:#1C532A;
+}
+
+section.color, div.color { 
+	color:#fff !important;
+	background-color:#1C532A !important;
+	border:0 !important;
+}
+
+/* section center menu - ex.: portfolio filter */
+section nav ul li a:hover,
+section nav ul li a.current,
+section nav ul li a.active {
+	background:#1C532A;
+	color:#fff;
+}
+
+/* Accordion */
+h4.panel-title a {
+	color:#1C532A;
+}
+
+
+
+/** 03. Header
+ **************************************************************** **/
+#header ul.nav li a:hover,
+#header ul.nav li.active a,
+#header ul.nav ul  li.active a,
+#header ul.nav ul  li.active a:hover {
+	color:#1C532A;
+}
+
+
+
+/** 04. Home
+ **************************************************************** **/
+.image-caption h1 em,
+.image-caption h2 em,
+.image-caption p em {
+	color:#1C532A;
+}
+#home.homeTop .video {
+	border:#1C532A 1px solid;
+	box-shadow:#1C532A 0 0 30px;
+}
+
+
+/** 05. Services
+ **************************************************************** **/
+.serviceBox i {
+	color:#1C532A; 
+}
+
+
+
+/** 06. Portfolio
+ **************************************************************** **/
+.portfolio .item  { 
+	
+}
+.portfolio .item  a {
+	background:#fff;
+	color:#000;
+}
+.portfolio .item .current,
+.portfolio .item  a:hover {
+	background:#1C532A;
+	color:#fff;
+}
+a.portfolioClose:hover{
+	background-color:#1C532A;
+}
+
+
+
+/** 07. Team
+ **************************************************************** **/
+.owl-carousel.column .item .social {
+	color:#1C532A;
+}
+
+
+
+/** 08. Pricing
+ **************************************************************** **/
+.pricing h3 span {
+	color:#1C532A;
+}
+
+
+
+/** 11. Footer
+ **************************************************************** **/
+#footer,
+#footer a.gmapClose {
+	background-color:#1C532A;
+}
+
+
+
+
+/** 12. 404 NOT FOUND
+ **************************************************************** **/
+#err404 h1,
+#err404 h2 {
+	color:#1C532A;
+}
+
+
+
+
+/** 13. Milestone
+ **************************************************************** **/
+.milestone {
+	color:#1C532A;
+}
+
+
+
+/** 14. Pagination
+ **************************************************************** **/
+.pagination a {
+	background:#1C532A !important;
+	border:0 !important;
+	border-left:#ee5939 1px solid !important;
+}
+.pagination .disabled:hover a,
+.pagination .disabled a {
+	color:#ccc !important;
+	background:#1C532A !important;
+}
+.pagination .active a,
+.pagination a:hover {
+	background:#ee5939 !important;
+	color:#fff !important;
+}
+
+
+
+
+/** 15. Plugins
+ **************************************************************** **/
+	/* 
+		@PACE LOADER
+		http://github.hubspot.com/pace/docs/welcome/
+	*/
+	.pace .pace-progress {
+		 background: #1C532A;
+	}
+
+	/*
+		Easy pie chart
+	*/
+	.easyPieChartItem {
+		color:#1C532A;
+	}
+
+
+
+/** Blog
+ **************************************************************** **/
+.blog-name {
+	color:#fff;
+	background:#1C532A;
+	text-shadow:#fff 0 0 3px;
+}
+
+#blog span.user-avatar {
+	background:#1C532A;
+}
+
+#blog .widget a.thumb:hover {
+	border:#1C532A 2px solid;
+}
+
+
+
+/** Misc
+ **************************************************************** **/
+.styleColor {
+	color:#1C532A;
+}
+.styleBackground {
+	background-color:#1C532A;
+}
+i.ico-stack {
+	background-color:#1C532A;
+	color:#fff;
+}
+a.thumbnail:hover {
+	border:#1C532A 1px solid;
+}
+.page-name {
+	background:#1C532A;
+}
+.page-name .name b,
+.page-name .name i {
+	color:#1C532A;
+}
+#scroller .item:hover {
+	background:#1C532A;
+}
+#scroller .item h4 {
+	color:#1C532A;
+}

@@ -1,939 +1,1297 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
+<!doctype html>
+<html class="nicescroll" lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Kokoa Espol</title>
 
-<html class="no-js lt-ie9 lt-ie8 lt-ie7">
 
-<![endif]-->
-<!--[if IE 7]>
+		<!-- Si puedes ver esto únete a Kokoa :D-->
 
-<html class="no-js lt-ie9 lt-ie8">
 
-<![endif]-->
-<!--[if IE 8]>
 
-<html class="no-js lt-ie9">
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="lt-ie9/html5.js"></script>
+			<script type="text/javascript" src="lt-ie9/respond.min.js"></script>
+			<script type="text/javascript" src="lt-ie9/excanvas.compiled.js"></script>
+		<![endif]--> 
 
-<![endif]-->
-<!--[if gt IE 8]>
-<!-->
+		<!-- GOOGLE FONTS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
 
-<html class="no-js">
-  
-  <!--
-<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>
-      Kokoa - ESPOL
-    </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="http://www.icm.espol.edu.ec/profesores/emera/images/enlaces/icono_espol.gif">
-    <script src="js/vendor/modernizr-2.6.2.min.js">
-    </script>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <style type="text/css">
-      .kokoalogo {
-        background-repeat:no-repeat;
-        width: 60px;
-        background-color: transparent;
-        position: fixed;
-      }
-      
-      .fondo{
-        background-image: url(img/fondoheader.jpg);
-        background-size:100%;
-        background-repeat:no-repeat;
-        height: 720px;
-      }
-    </style>
-    
-  </head>
-  <body>
-    <!--Barra de Navegacion-->
-    <nav class="navbar navbar-inverse">
-      <div class="navbar-header ">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">
-            Cambiar Navegacion
-          </span>
-          <span class="icon-bar">
-          </span>
-          <span class="icon-bar">
-          </span>
-          <span class="icon-bar">
-          </span>
-        </button>
-        <a href="#footer" class="navbar-brand">
-          Home
-        </a>
-      </div>
-      
-      <div class="collapse navbar-collapse navbar-ex1-collapse ">
-        <ul class="nav navbar-nav">
-          <li class="Quiénes somos">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              Quiénes Somos 
-              <b class="caret">
-              </b>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#">
-                  Historia
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Ubicación
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/kokoaespol" target="_blank">
-                  <img src="img/facebook.png" title="kokoaFanPage"  width = "40px">
-                </a>
-              </li>
-              <li class="divider">
-              </li>
-              <li class="nav-header">
-                Nav header
-              </li>
-              <li>
-                <a href="#">
-                  Separated link
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  One more separated link
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">
-              Miembros
-            </a>
-          </li>
-          <li>
-            <a href="#proyectos">
-              Proyectos
-            </a>
-          </li>
-          <li>
-            <a href="#aspirantes">
-              Aspirantes
-            </a>
-          </li>
-          
-          
-          
-        </ul>
-        
-        <ul class="nav navbar-nav navbar-right">
-          <a href="https://www.facebook.com/kokoaespol" target="_blank">
-            <img src="img/facebook.png" title="kokoaFanPage"  width = "40px">
-          </a>
-          <a href="ttps://plus.google.com/116318267088941716895/about?hl=es-419&partnerid=gplp0" target="_blank">
-            <img src="img/google.png" title="kokoaGooglePlus" width = "40px">
-          </a>
-          <a href="https://twitter.com/kokoaespol" target="_blank">
-            <img src="img/twitter.png" title="kokoaTwitter"  width = "40px">
-          </a>
-          <a href="http://www.youtube.com/user/kokoavideos" target="_blank">
-            <img src="img/youtube-.png" title="kokoaVideos"  width = "50px">
-          </a>
-          
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <br>
-    
-    <!--Header-->
-    <header class = "kokoalogo" >
-      <div class="container ">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 " >
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="row">
-        <img src="img/fondoheader2.jpg" class="img-responsive">
-        
-      </div>
-    </div>
-    
-    <div class="container ">
-      <!--Slider-->
-      <!--Contenidos Personalizados - Imagenes y Texto-->
-      <h3 align="center">
-        <br>
-        <br>
-        Tecnologías usadas
-      </h3>
-      <hr>
-      <section>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="row">
-              <div class="col-sm-3 col-md-6 col-lg-6">
-                <br>
-                <br>
-                <img src="img/img4.png" class="img-responsive">
-              </div>
-              <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                <h3>
-                  Github
-                </h3>
-                <hr>
-                <p align="justify">
-                  GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub.
-                  <br>
-                  <a href="#">
-                    leer más
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="row">
-              <div class="col-sm-3 col-md-6 col-lg-6">
-                <br>
-                <br>
-                <img src="img/img5.png" class="img-responsive">
-              </div>
-              <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                <h3>
-                  Android 
-                </h3>
-                <hr>
-                <p align="justify">
-                  Android Studio es un entorno de desarrollo integrado (IDE) para el Android plataforma. Está disponible para su descarga en la de Windows, Mac OS X y Linux.
-                  <br>
-                  <a href="#">
-                    leer más
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="row">
-              <div class="col-sm-3 col-md-6 col-lg-6">
-                <br>
-                <br>
-                <img src="img/img6.png" class="img-responsive">
-              </div>
-              <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                <h3>
-                  Subdivisión de robótica
-                </h3>
-                <hr>
-                <p align="justify">
-                  Es una plataforma de hardware libre, basada en una placa con un microcontrolador, diseñada para facilitar el uso de la electrónica en proyectos multidisciplinares.
-                  <br>
-                  <a href="#">
-                    leer más
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-      </section>
-      <section id="miSlide" class="carousel slide">
-        
-        <ol class="carousel-indicators">
-          <li data-target="#miSlide" data-slide-to="0" class="active">
-          </li>
-          <li data-target="#miSlide" data-slide-to="1">
-          </li>
-          <li data-target="#miSlide" data-slide-to="2">
-          </li>
-          <li data-target="#miSlide" data-slide-to="3">
-          </li>
-          <li data-target="#miSlide" data-slide-to="4">
-          </li>
-          <li data-target="#miSlide" data-slide-to="5">
-          </li>
-          <li data-target="#miSlide" data-slide-to="6">
-          </li>
-          
-        </ol>
-        
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="img/img1.jpg" class="adaptar">
-          </div>
-          <div class="item">
-            <img src="img/img2.jpg" class="adaptar"	>
-          </div>
-          <div class="item">
-            <img src="img/img3.jpg" class="adaptar">
-          </div>
-          <div class="item">
-            <img src="img/img4.jpg" class="adaptar">
-          </div>
-          <div class="item">
-            <img src="img/img5.jpg" class="adaptar">
-          </div>
-          <div class="item">
-            <img src="img/img6.jpg" class="adaptar">
-          </div>
-          <div class="item">
-            <img src="img/img7.jpg" class="adaptar">
-          </div>
-        </div>
-        
-        <a href="#miSlide" class="left carousel-control" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left">
-          </span>
-        </a>
-        <a href="#miSlide" class="right carousel-control" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right">
-          </span>
-        </a>
-      </section>
-      <br>
-    
+		<!-- CORE CSS FRAMEWORK -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="css/animate.css" rel="stylesheet" type="text/css" />
+
+		<!-- PLUGINS -->
+		<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+		<!-- CSS TEMPLATE -->
+		<link href="css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="css/shop.css" rel="stylesheet" type="text/css" />
+		<link href="css/orange.css" rel="stylesheet" type="text/css" />
+
+		<link href="css/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+
+		<!-- ICONS -->
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+		<link rel="icon" href="img/logo.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- STYLESWITCHER -->
+		<link href="css/styleswitcher.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+	<body>
 	
-      <div name = "video">
-                      <br>
-                <br>
-                    <h3 align="center">
-                    KokoaHistoria</h3><hr>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                <video src="video/intro.mp4" type="video/mp4" controls class="img-responsive" align="centre">
-                  
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9">
-                  <p align="justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  
-                </div>
-              </div>
-            </div>
-              
-              
-              <div class="row">
-                <a name=proyectos>
-                </a>
-                
-                <br>
-                <br>
-                
-                <div class="container">
-                  <h3 align="center">
-                    Nuestros proyectos
-                  </h3>
-                  <hr>
-                  <section>
-                    <div class="row">
-                      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
-                        <div class="row">
-                          <div class="col-sm-3 col-md-6 col-lg-4">
-                            <br>
-                            <br>
-                            <img src="img/irontux.jpg" class="img-responsive" align="centre">
-                          </div>
-                          <div class="col-xs-12 col-sm-9 col-md-6 col-lg-8">
-                            <h3>
-                              Github
-                            </h3>
-                            <hr>
-                            <p>
-                              GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub.
-                              <br>
-                              <a href="#">
-                                leer más
-                              </a>
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
-                    <div class="row">
-                      <div class="col-sm-3 col-md-6 col-lg-4">
-                        <br>
-                        <br>
-                        <img src="img/samurai.jpg" class="img-responsive" align="center">
-                      </div>
-                      <div class="col-sm-9 col-md-6 col-lg-8">
-                        <h3>
-                          Android 
-                        </h3>
-                        <hr>
-                        <p align="justify">
-                          Android Studio es un entorno de desarrollo integrado (IDE) para el Android plataforma. Está disponible para su descarga en la de Windows, Mac OS X y Linux.
-                          <br>
-                          <a href="#">
-                            leer más
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                    
-                  </div>
-              </section>
-              <section>
-            	<div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6" >
-                    <div class="row">
-                      <div class="col-sm-3 col-md-6 col-lg-4">
-                        <br>
-                        <br>
-                        <img src="img/tuxmapa.jpg" class="img-responsive" align="centre">
-                      </div>
-                      <div class="col-xs-12 col-sm-9 col-md-6 col-lg-8">
-                        <h3>
-                          KokoaMapa
-                        </h3>
-                        <hr>
-                        <p>
-                          GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Utiliza el framework Ruby on Rails por GitHub.
-                          <br>
-                          <a href="http://kokoa.espol.edu.ec/kokoamapa">
-                            leer más
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
-                    <div class="row" align="centre">
-                      <div class="col-sm-3 col-md-6 col-lg-4">
-                        <br>
-                        <br>
-                        <img src="img/depredador.jpg" class="img-responsive "align="centre">
-                      </div>
-                      <div class="col-sm-9 col-md-6 col-lg-8">
-                        <h3>
-                          Android 
-                        </h3>
-                        <hr>
-                        <p align="justify">
-                          Android Studio es un entorno de desarrollo integrado (IDE) para el Android plataforma. Está disponible para su descarga en la de Windows, Mac OS X y Linux.
-                          <br>
-                          <a href="#">
-                            leer más
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              </div>
-      </section>
+		<!-- HOME -->
+		<section id="home">
+
+			<!-- loader image -->
+			<img class="imgLoader" src="img/ajax-loader.gif" alt="loading..." width="32" height="32" />
+			<!-- slider controlls -->
+			<a href="#" class="sliderPrev"></a><a href="#" class="sliderNext"></a>
+
+			<div class="fullSlider">
+
+				<!-- slider item -->
+				<div>
+					<img src="img/fondo2.jpg" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>USA, MODIFICA, <em>DISTRIBUYE,</em> APRENDE, COMPARTE</h2>
+								
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+				<!-- /slider item -->
+
+				<!-- slider item -->
+				<div>
+					<img src="img/fondo.jpeg" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>VIVE EL <em>SOFTWARE</em> LIBRE</h2>
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+				<!-- /slider item -->
+								<!-- slider item -->
+				<div>
+					<img src="img/fondo3.png" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>USA, MODIFICA, <em>DISTRIBUYE,</em> APRENDE, COMPARTE</h2>
+								
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+				<!-- /slider item -->
+
+				<!-- slider item -->
+				<div>
+					<img src="img/fondo4.jpg" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>VIVE EL <em>SOFTWARE</em> LIBRE</h2>
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+				<!-- /slider item -->
+
+				<div>
+					<img src="img/fondo6.png" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>USA, MODIFICA, <em>DISTRIBUYE,</em> APRENDE, COMPARTE</h2>
+								
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+				<!-- /slider item -->
+
+				<!-- slider item -->
+				<div>
+					<img src="img/fonde7.jpg" alt="" />
+					<!-- image caption -->
+					<div class="raster">
+						<div class="image-caption">
+							<div class="inner">
+								<h1><em>Kokoa - Espol</em></h1>
+								<h2>VIVE EL <em>SOFTWARE</em> LIBRE</h2>
+							</div>
+						</div><!-- /image caption -->
+					</div><!-- /raster -->
+				</div>
+			</div>
+
+			<!-- ARROW - DOWN -->
+			<a class="scrollTo fa fa-angle-double-down" href="#services"></a>
+
+		</section>
+		<!-- /HOME -->
+		<!-- HEADER -->
+		<header id="header">
+			<div class="container">
+
+				<!-- LOGO -->
+				<a href="#home" class="pull-left scrollTo"><img src="img/logo.png" height="60" alt="welcome" /></a>
+
+				<!-- MOBILE MENU -->
+				<button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
+
+				<!-- NAV MENU -->
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul id="onepageNav" class="nav navbar-nav navbar-right"><!-- id="onepageNav" for homepage only -->
+						<li class="active"><a href="#home">Kokoa</a></li>
+						<li><a href="#proyectos">Proyectos</a></li>
+						<li><a href="#services">Actividades</a></li>
+						<li><a href="#skills">Destrezas</a></li>
+						<li><a href="#kokoas">Kokoas</a></li>
+						<li><a href="#team">Equipo</a></li>
+						<li><a href="#contact">Contáctanos</a></li>
+					</ul>
+				</nav>
+				<!-- /NAV MENU -->
+			</div>
+			<div>
+		</div>
+		</header>
+		<!-- /HEADER -->
+		<video id="up-mini-video"  controls class="img-responsive" poster="img/ajax-loader.gif" src="http://stream01.uplay.ec:8800/fox" autoplay=""></video>
+		<!-- ABOUT OUR COMPANY -->
+		<section id="about" class="color">
+
+			<header>
+				<h2 data-animation="bounceIn">Acerca de Kokoa.</h2>
+				<h3>Libertad, softaware/hardware ¡libre!.</h3>
+			</header>
+
+			<!-- content -->
+			<article class="container text-left">
+
+				<!-- anout us paragraphs -->
+				<figure class="animate_from_left image-left">
+					<img alt="about us" class="img-responsive float-left" src="img/logo.png" height="500" />
+				</figure>
+
+				<p class="dropcap">unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+				<p class="dropcap">Lorem ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+				<!-- number animate -->
+				<div class="animate_from_bottom text-center">
+
+					<!-- animate 1 -->
+					<div class="milestone">
+						<i class="fa fa-star-half"></i> <!-- icon -->
+						<span class="countTo">11</span> <!-- number -->
+						<span class="countToDesc">Aspitantes.</span> <!-- short text -->
+					</div>
+
+					<!-- animate 2 -->
+					<div class="milestone">
+						<i class="fa fa-users"></i> <!-- icon -->
+						<span class="countTo">118</span> <!-- number -->
+						<span class="countToDesc">Miembros</span> <!-- short text -->
+					</div>
+
+					<!-- animate 3 -->
+					<div class="milestone">
+						<i class="fa fa-twitter"></i> <!-- icon -->
+						<span class="countTo">480</span> <!-- number -->
+						<span class="countToDesc">Seguidores en Twitter</span> <!-- short text -->
+					</div>
+					<div class="milestone">
+						<i class="fa fa-facebook"></i> <!-- icon -->
+						<span class="countTo">885</span> <!-- number -->
+						<span class="countToDesc">Fans en Facebook</span> <!-- short text -->
+					</div>
+
+				</div>
+				<!-- /number animate -->
+
+			</article>
+
+		</section>
+		<!-- /ABOUT OUR COMPANY -->
+
+
+
+
+		<!-- SHOP NAME -->
+		<section class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(img/parallax_bg.jpg);">
+			<span class="overlay"></span>
+			<span class="name">
+				<b>World</b> is Open Source<b>!</b>
+				<i class="fa fa-globe"></i>
+			</span>
+		</section>
+
+		<!-- PRODUCT LIST -->
+		<section id="proyectos">
+
+			<div class="container iScroll">
+				<span id="dragInfoText">
+					arrastra para ver mas.
+				</span>
+
+				<div id="dragInfo"></div>
+
+				<div id="iscrollWrapper">
+
+					<div id="scroller" class="dragCursor">
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/1.jpg" alt="" height="200" /> 
+								<h3>Espol R.A</h3>
+								<h4>
+									Kokoa-Proyecto de Realidad Aumentada.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/2.jpg" alt="" height="200" />
+								<h3>Kokoa Mapa</h3>
+								<h4>
+									Kokoa-Herramienta para Espol R.A.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/3.jpg" alt="" height="200" />
+								<h3>Espol sin buseta</h3>
+								<h4>
+								Kokoa-Red Social Espol-Sin-Buseta.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/4.jpg" alt="" height="200" /> 
+								<h3>Tux net</h3>
+								<h4>
+									Kokoa-Red de Voz sobre IP.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/5.jpg" alt="" height="200" /> 
+								<h3>Tux bot</h3>
+								<h4>
+									Subdivisión de Robótica Kokoa.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/9.jpg" alt="" height="200" />
+								<h3>Tux drone</h3>
+								<h4>
+									Kokoa-drones de vigilancia.	
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/6.jpg" alt="" height="200" />
+								<h3>Pen-testers kokoas</h3>
+								<h4>
+									Subdivisión de seguridad informática Kokoa.
+								</h4>
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a href="#proyectos">
+								<img src="img/7.jpg" alt="" height="200" />
+								<h3>Planificación registros</h3>
+								<h4>
+									Kokoa-app para planificar registros.
+								</h4>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- INDICATOR - SCROLL POSITION -->
+				<div id="indicator"><div id="indicator-line"></div></div>
+				<!-- /INDICATOR - SCROLL POSITION -->
+
+
+
+
+				<!-- PRODUCT DETAIL -->
+				<section id="product_info" class="nicescroll">
+					<button id="closeProduct"></button>
+					<div id="productContent"><!-- ajax : shop-product-ajax.html --></div>
+				</section>
+				<!-- /PRODUCT DETAIL -->
+
+
+
+			</div>
+			
+		</section>
+		<!-- /PRODUCT LIST -->
+
+		<!-- BRANDS -->
+		<section id="brands">
+			<div class="container">
+				<!-- BRANDS CAROUSEL -->
+				<div class="owl-carousel" data-navigation="false" data-singleitem="false" data-autoplay="true" data-animation="bounceIn">
+					<div class="item dragCursor"><img src="img/tuxs/8.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/1.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/2.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/3.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/4.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/5.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/6.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/7.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/9.jpg" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="img/tuxs/10.jpg" height="60" alt="..." /></div>
+				</div>
+
+			</div>
+		</section>
+		<!-- BRANDS -->
+
+
+
+
+		
+		
+		<section id="cart" class="hide">
+
+			<div class="container">
+			<header>
+				<h2>SHOP CART</h2>
+			</header>
+
+				<!-- cart content -->
+				<div id="cartContent">
+					<!-- cart header -->
+					<div class="item head">
+						<span class="cart_img"></span>
+						<span class="product_name">PRODUCT NAME</span>
+						<span class="remove_item"></span>
+						<span class="total_price">TOTAL</span>
+						<span class="qty">QUANTITY</span>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart header -->
+
+					<!-- cart item -->
+					<div id="4GH7SS" class="item">
+						<div class="cart_img"><img src="img/6.jpg" alt="" width="80" /></div>
+						<div class="product_name">Samsung i9105 Galaxy S II Plus, 8GB, Blue Gray</div>
+						<a href="#" class="remove_item" data-itemcode="4GH7SS">X</a>
+						<div class="total_price">$<span>32.00</span></div>
+						<div class="qty"><input type="text" value="1" name="qty" maxlength="3" data-itemcode="4GH7SS" data-unitprice="32.00" /> x $32.00</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart item -->
+
+					<!-- cart item -->
+					<div id="4GH7SZ" class="item">
+						<div class="cart_img"><img src="img/4.jpg" alt="" width="80" /></div>
+						<div class="product_name">Samsung i9105 Galaxy S II Plus, 8GB, Blue Gray</div>
+						<a href="#" class="remove_item" data-itemcode="4GH7SZ">X</a>
+						<div class="total_price">$<span>32.00</span></div>
+						<div class="qty"><input type="text" value="1" name="qty" maxlength="3" data-itemcode="4GH7SZ" data-unitprice="32.00" /> x $32.00</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart item -->
+
+					<!-- cart total -->
+					<div class="total styleColor">
+						<small>
+							Shipping: $<span id="shipping">0</span>
+						</small>
+
+						<span class="totalToPay">
+							TOTAL: $<span id="total_payment">0</span>
+						</span>
+					</div><div class="clearfix"></div>
+					<!-- /cart total -->
+
+				</div><div class="clearfix"></div>
+				<!-- /cart content -->
+
+				<form id="form_checkout" method="post" action="#">
+
+					<!-- SHIPPING INFO -->
+					<div id="shippingInfo">
+						<h4>SHIPPING INFO</h4>
+
+						<div class="row">
+							
+							<div class="col-xs-12">
+								<label class="control-label">Email</label>
+								<input required type="text" class="form-control" name="email"  />
+							</div>
+							<!-- first name -->
+							<div class="col-xs-6">
+								<label class="control-label">First Name</label>
+								<input required type="text" class="form-control" name="first_name" />
+							</div>
+							<!-- last name -->
+							<div class="col-xs-6">
+								<label class="control-label">Last Name</label>
+								<input required type="text" class="form-control" name="last_name" />
+							</div><div class="clearfix"></div>
+
+							<!-- address #1 -->
+							<div class="col-xs-12">
+								<label class="control-label">Address 1</label>
+								<input required type="text" class="form-control" name="address_1" />
+							</div>
+							<!-- address #2 -->
+							<div class="col-xs-12">
+								<label class="control-label">Address 2</label>
+								<input type="text" class="form-control" name="address_2" />
+							</div><div class="clearfix"></div>
+
+							<!-- state -->
+							<div class="col-xs-6">
+								<label class="control-label">State</label>
+								<input type="text" class="form-control" name="state" />
+							</div>
+							<!-- city -->
+							<div class="col-xs-6">
+								<label class="control-label">City</label>
+								<input required type="text" class="form-control" name="city" />
+							</div><div class="clearfix"></div>
+
+							<!-- country -->
+							<div class="col-xs-6">
+								<label class="control-label">Country</label>
+								<input required type="text" class="form-control" name="country" />
+							</div>
+							<!-- zip / postal code -->
+							<div class="col-xs-6">
+								<label class="control-label">Zip/Postal Code</label>
+								<input required type="text" class="form-control" name="zipcode" />
+							</div><div class="clearfix"></div>
+
+							<!-- phone -->
+							<div class="col-xs-6">
+								<label class="control-label">Phone</label>
+								<input required type="text" class="form-control" name="phone" />
+							</div>
+							<!-- fax -->
+							<div class="col-xs-6">
+								<label class="control-label">Fax</label>
+								<input type="text" class="form-control" name="fax" />
+							</div><div class="clearfix"></div>
+						</div>
+
+					</div>
+					<div class="clearfix"></div>
+				</form>
+
+			</div>
+		</section>
+		<!-- /SHOP CART -->
+		<!-- SKILLS -->
+		<section id="skills">
+
+			<header>
+				<h2 data-animation="bounceIn">habilidades</h2>
+			</header>
+
+			<article class="container">
+
+				<!-- SKILLS PRESENT|FUTURE COLUMNS -->
+				<div class="row">
+					<div class="col-md-6 text-left">
+						<h3>PRESENTES</h3>
+						<p>A skill is the learned ability to carry out a task with pre-determined results often within a given amount of time, energy, or both[citation needed]. In other words the abilities that one possesses. Skills can often be divided into domain-general and domain-specific skills. For example, in the domain of work, some general skills would include time management, teamwork and leadership, self motivation and others, whereas domain-specific skills would be useful.</p>
+					</div>
+					<div class="col-md-6 text-left">
+						<h3>FUTURAS</h3>
+						<p>A skill is the learned ability to carry out a task with pre-determined results often within a given amount of time, energy, or both[citation needed]. In other words the abilities that one possesses. Skills can often be divided into domain-general and domain-specific skills. For example, in the domain of work, some general skills would include time management, teamwork and leadership, self motivation and others, whereas domain-specific skills would be useful.</p>
+					</div>
+				</div>
+				<!-- /SKILLS PRESENT|FUTURE COLUMNS -->
+			
+			</article>
+
+
+			<article class="container">
+
+				<div class="row">
+					<!-- Pie Chart #1 -->
+					<div class="animate_from_left easyPieChartItem" data-animation="fadeInUp">
+						<div class="pieChart" data-bar-color="#1C532A" data-bar-width="150" data-percent="95">95%</div>
+						<h4>Diseño web</h4>
+					</div>
+					
+					<!-- Pie Chart #2 -->
+					<div class="easyPieChartItem" data-animation="fadeInUp">
+						<div class="pieChart" data-bar-color="#1C532A" data-bar-width="150" data-percent="90">90%</div>
+						<h4>desarrollo</h4>
+					</div>
+					
+					<!-- Pie Chart #3 -->
+					<div class="easyPieChartItem" data-animation="fadeInUp">
+						<div class="pieChart" data-bar-color="#1C532A" data-bar-width="150" data-percent="48">48%</div>
+						<h4>HARDWARE</h4>
+					</div>
+					
+					<!-- Pie Chart #4 -->
+					<div  class="animate_from_right easyPieChartItem" data-animation="fadeInUp">
+						<div class="pieChart" data-bar-color="#1C532A" data-bar-width="150" data-percent="75">75%</div>
+						<h4>Cursos</h4>
+					</div>
+
+					<!-- Pie Chart #5 -->
+					<div  class="animate_from_right easyPieChartItem" data-animation="fadeInUp">
+						<div class="pieChart" data-bar-color="#1C532A" data-bar-width="150" data-percent="70">70%</div>
+						<h4>hacking</h4>
+					</div>
+				</div>
+
+			</article>
+
+		</section>
+		<!-- /SKILLS -->
+	
+		
+		
+
+
+
+
+		<!-- SERVICES -->
+		<section id="services">
+			<header>
+				<h2 data-animation="bounceIn">¿qué ofrece kokoa?</h2>
+				<h3>dar lo mejor de lo mejor</h3>
+			</header>
+
+			<article class="container">
+				<p>
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.<br />
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				</p>
+			</article>
+
+			<article class="container">
+
+				<!-- services boxes -->
+				<div class="serviceBoxContainer">
+					<!-- box -->
+					<div class="serviceBox" data-animation="fadeInUp">
+						<i data-animation="rotateIn" class="fa fa-linux"></i>
+						<h4>Libertad 0</h4>
+						<p>La libertad para ejecutar el programa con cualquier propósito.</p>
+					</div>
+					<!-- /box -->
+
+					<!-- box -->
+					<div class="serviceBox" data-animation="fadeInUp">
+						<i data-animation="rotateIn" class="fa fa-eye"></i>
+						<h4>Libertad 1</h4>
+						<p>La libertad de estudiar cómo funciona el programa y modificarlo, adaptándolo a tus necesidades.</p>
+					</div>
+					<!-- /box -->
+
+					<!-- box -->
+					<div class="serviceBox" data-animation="fadeInUp">
+						<i data-animation="rotateIn" class="fa fa-gift"></i>
+						<h4>Libertad 2</h4>
+						<p>La libertad de distribuir copias del programa, con lo cual puedes ayudar a tu prójimo.</p>
+					</div>
+					<!-- /box -->
+
+					<!-- box -->
+					<div class="serviceBox" data-animation="fadeInUp">
+						<i data-animation="rotateIn" class="fa fa-bug"></i>
+						<h4>Libertad 3</h4>
+						<p>la libertad de mejorar el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie.</p>
+					</div>
+					<!-- /box -->
+
+				</div>
+				<!-- /services boxes -->
+
+			</article>
+			<article class="container">
+
+				<!-- services columns -->
+				<div class="serviceColumnContainer">
+					<div class="row">
+						<!-- column left -->
+						<div class="col-md-6 text-left">	
+
+							<!-- service #1 -->
+							<div class="serviceColumn animate_from_left">
+								<i class="ico-stack fa fa-qrcode"></i>
+								<h3 class="page-header">Distribuciones</h3>
+								<p>El gordo no lleno contenido aqui El gordo no lleno contenido aqui El gordo no lleno contenido aqui</p>
+							</div>
+
+							<!-- service #2 -->
+							<div class="serviceColumn animate_from_left">
+								<i class="ico-stack fa fa-briefcase"></i>
+								<h3 class="page-header">Programas ejecutables</h3>
+								<p>El gordo no lleno contenido aqui El gordo no lleno contenido aqui El gordo no lleno contenido aqui.</p>
+							</div>
+
+						</div>
+
+						<!-- column right -->
+						<div class="col-md-6 text-left animate_from_right">
+
+							<!-- service #3 -->
+							<div class="serviceColumn">
+								<i class="ico-stack fa fa-gift"></i>
+								<h3 class="page-header">Contenido libre</h3>
+								<p>El gordo no lleno contenido aqui El gordo no lleno contenido aqui El gordo no lleno contenido aqui.</p>
+							</div>
+
+							<!-- service #4 -->
+							<div class="serviceColumn animate_from_right">
+								<i class="ico-stack fa fa-cogs"></i>
+								<h3 class="page-header">Código fuente</h3>
+								<p>El gordo no lleno contenido aqui El gordo no lleno contenido aqui El gordo no lleno contenido aqui.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- /services columns -->
+			</article>
+		</section>
+		<!-- /SERVICES -->
+		<!-- QUOTE -->
+		<section class="quote color parallax" data-stellar-background-ratio="0.5" style="background-image:url(img/parallax_bg.jpg)">
+
+			<div class="container">
+				<q>  Beethoven era un buen compositor porque utilizaba ideas nuevas en combinación con ideas antiguas. Nadie, ni siquiera Beethoven podría inventar la música desde cero. Es igual con la informática.  </q>
+				<cite>
+					<strong>Richard Stallman</strong>
+				</cite>
+			</div>
+
+		</section>
+		<!-- QUOTE -->
+
+
+		<!-- PORTFOLIO -->
+		<section id="kokoas">
+
+			<header>
+				<h2 data-animation="bounceIn">Kokoa Activos</h2>
+				<h3>Miembros activos</h3>
+			</header>
+
+
+			<!-- portfolio menu -->
+			<nav class="portfolio-filter primary">
+				<ul>
+					<li><a href="#" class="selected current" data-filter=".coordinadores"><i class="fa fa-users"></i> Coordinadores</a></li>
+					<li><a href="#" data-filter=".diseñadores"><i class="fa fa-magic"></i> Diseñadores</a></li>
+					<li><a href="#" data-filter=".difusion"><i class="fa fa-bullhorn"></i>Difusión</a></li>
+					<li><a href="#" data-filter=".desarrolladores"><i class="fa fa-laptop"></i> Desarrolladores</a></li>
+					<li><a href="#" data-filter=".soporte"><i class="fa fa-wrench"></i> Soporte</a></li>
+					<li><a href="#" data-filter=".cm"><i class="fa fa-check-square-o"></i> Comunity Manager</a></li>
+					<li><a href="#" data-filter=".si"><i class="fa fa-unlock-alt"></i> Seguridad Informática</a></li>
+					<li><a href="#" data-filter=".hl"><i class="fa fa-linux"></i> Hardware Libre</a></li>
+					<li><a href="#" data-filter=".app"><i class="fa fa-android"></i> Aplicaciones Móviles</a></li>
+					<li><a href="#" data-filter=".instructores"><i class="fa fa-user"></i> Instructores</a></li>
+			</nav>
+			<!-- /portfolio menu -->
  
-             
-              
-              <a name = "aspirantes">
-                
-              </a>
-              <div class="container">
-                <div class="row">
-                  
-                  <br>
-                  <br>
-                  <br>
-                  
-                  <div class="container">
-                    <h3 align="center">
-                      Enlistate en kokoa
-                    </h3>
-                    <hr>
-                    <section>
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-12">
-                          <div class="row">
-                            <div class="col-sm-3 col-md-6 col-lg-6">
-                              <br>
-                              <br>
-                              <img src="img/enlistate.jpg" class="img-responsive" align="centre">
-                          </div>
-                          <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                            <h3>
-                              Aspirantes
-                            </h3>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                              <br>
-                              <a href="#">
-                                leer más
-                              </a>
-                            </p>
-                            <div class="row">
-                              <div class = "col-xs-12 col-sm-9 col-md-6 col-lg-8">
-                                <input type="text" class="form-control" placeholder="e-mail">
-                                <br>
-                                <button type="button" class="btn btn-primary">
-                                  Postularme!
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-              </div>
-          </div>
-          
-          
-          <div class="container">
-            
-            <h3 align="center">
-              ¿Dónde está Kokoa?
-            </h3>
-            <hr>
-        	<iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ec/maps?ie=UTF8&amp;q=KOKOA+Espol&amp;fb=1&amp;gl=ec&amp;hq=kokoa+espol&amp;hnear=0x902d13cbe855805f:0x8015a492f4fca473,Guayaquil&amp;cid=6049796382944515979&amp;ll=-2.145295,-79.9661&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed">
-            </iframe>
-            <div/>
-            <section class="color2">
-              <div class="container">
-                <div class="row">
-                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <h3 class="color3">
-                      Servicios
-                    </h3>
-                    <a href="#">
-                      Diseño Web
-                    </a>
-                    <br>
-                    <a href="#">
-                      Lenguajes de Programación
-                    </a>
-                    <br>
-                    <a href="#">
-                      App's de Facebook
-                    </a>
-                    <br>
-                    <a href="#">
-                      Eventos
-                    </a>
-                    <br>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <h3 class="color3">
-                      Servicios
-                    </h3>
-                    <a href="#">
-                      Diseño Web
-                    </a>
-                    <br>
-                    <a href="#">
-                      Lenguajes de Programación
-                    </a>
-                    <br>
-                    <a href="#">
-                      App's de Facebook
-                    </a>
-                    <br>
-                    <a href="#">
-                      Eventos
-                    </a>
-                    <br>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <h3 class="color3">
-                      Servicios
-                    </h3>
-                    <a href="#">
-                      Diseño Web
-                    </a>
-                    <br>
-                    <a href="#">
-                      Lenguajes de Programación
-                    </a>
-                    <br>
-                    <a href="#">
-                      App's de Facebook
-                    </a>
-                    <br>
-                    <a href="#">
-                      Eventos
-                    </a>
-                    <br>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <h3 class="color3">
-                      Servicios
-                    </h3>
-                    <a href="#">
-                      Diseño Web
-                    </a>
-                    <br>
-                    <a href="#">
-                      Lenguajes de Programación
-                    </a>
-                    <br>
-                    <a href="#">
-                      App's de Facebook
-                    </a>
-                    <br>
-                    <a href="#">
-                      Eventos
-                    </a>
-                    <br>
-                  </div>
-                </div>
-              </div>
-              <br>
-            </section>
-            <a name="footer">
-              <a/>
-              <footer class="color4">
-                <div class="container">
-                  <br>
-                  <div class="row">
-		            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-10">
-                      <p align="justify">
-                        “Beethoven era un buen compositor porque utilizaba ideas nuevas en combinación con ideas antiguas. Nadie, ni siquiera Beethoven podría inventar la música desde cero. Es igual con la informática“
-                      </p>
-                      
-                      <p align="right">
-                        --Richard Stallman
-                      </p>
-		            </div>
-		            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                      <img src="img/rs.jpg" alt="" class="img-circle">
-		            </div>
-                  </div>
-                  
-                  <div class="row">
-		            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-10">
-                      
-                      <p align="justify">
-                        “Las copias de seguridad son cosa de nenas. Los verdaderos hombres suben sus datos a cualquier FTP y dejan que todo el mundo haga copias.“
-                      </p>
-                      <p>
-                      </p>
-                      
-                      <p align="right">
-                        --Linus Torvalds
-                      </p>
-		            </div>
-		            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                      <img src="img/lt.jpg" alt="" class="img-circle">
-		            </div>
-                  </div>
-                  
-                </div>
-              </br>
-            </div>
-          </footer>
-      </a>
-    <div/>  
-      
-      <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
-      </script>
-      
-      <script src="js/vendor/bootstrap.js">
-      </script>
-      <script src="js/main.js">
-      </script>
-      
-      
-      <style>
-        #flotante1 {
-          position:fixed;
-          top:100px;
-          right:-250px;
-          float:right;
-          width:288px;
-          display:block;
-          padding:0;
-          z-index:1002;
-          -moz-transition: all 1s;
-          -webkit-transition: all 1s;
-          -o-transition: all 1s;
-        }
-        #flotante2 {
-          position:fixed;
-          top:240px;
-          right:-250px;
-          float:right;
-          width:288px;
-          display:block;
-          padding:0;
-          z-index:1003;
-          border-radius:10px;
-          -moz-transition: all 1s;
-          -webkit-transition: all 1s;
-          -o-transition: all 1s;
-        }
-        #flotante3 {
-          position:fixed;
-          top:380px;
-          right:-250px;
-          float:right;
-          width:288px;
-          display:block;
-          padding:0;
-          z-index:1004;
-          border-radius:10px;
-          -moz-transition: all 1s;
-          -webkit-transition: all 1s;
-          -o-transition: all 1s;
-        }
-        #flotante1:hover, #flotante2:hover, #flotante3:hover {
-          right:0px;
-          -moz-transition: all 1s;
-          -webkit-transition: all 1s;
-          -o-transition: all 1s;
-        }
-        div.likeboxwrap {
-          margin-top:-5px;
-          margin-left:-45px;
-          width:238px;
-          
-          height:325px;
-          background-color:#fff;
-          Like
-            Te gusta Kokoa!
-            
-            overflow:hidden;
-          border-radius:10px;
-        }
-      </style>
-      <div id='flotante1'>
-        <img src='http://lh3.googleusercontent.com/-vq69jjHi_aA/UKxnEYWptDI/AAAAAAAADdU/1bjiSBYnRSo/fb_tab.png' style='float:left;'/>
-        <div style='background: #3c5a98; height:325px; margin-left:38px;padding: 8px 5px 0pt 50px;border-radius: 0px 0px 0px 10px;'>
-          <span>
-            <div class='likeboxwrap'>
-              <iframe allowtransparency='true' frameborder='0' scrolling='no' src='http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fkokoaespol&width=240&colorscheme=light&connections=15&stream=false&header=false&height=350' style='border:none; overflow:hidden; width:240px; height:325px;'/>
-            </iframe>
-          </div>
-        </span>
-      </div>
-  </div>
-  
-  <div id='flotante2'>
-    <img src='http://lh3.googleusercontent.com/-RhKk8PrLf6Q/UKxmjhdUHAI/AAAAAAAADdI/wUbRpY6XfiQ/tw_tab.png' style='float:left;'/>
-    <div style='background: #00a0e8; height:325px; margin-left:38px;padding: 8px 5px 0pt 50px;border-radius: 0px 0px 0px 10px;'>
-      <span>
-        <div class='likeboxwrap'>
-          <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'>
-          </script>
-          <style>
-            .follow_box_widget{
-              overflow: hidden;
-              padding-left: 5px;
-              padding-right: 5px;
-              padding-top: 5px;
-              background-color: #fff transparent;
-              position: relative;
-              margin: auto;
-            }
-            .follow_box{
-              font-size: 11px;
-              font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-              color: #333;
-              line-height: 1.28;
-              text-align: left;
-              direction: ltr;
-            }
-            .follow_box .follow_top{
-              padding: 5px 10px 0px 5px;
-              margin-bottom: 8px;
-              min-width: 230px;
-              overflow: hidden;
-            }
-            .follow_box .profileimage{
-              float: left;
-              width: 40px;
-              height: 40px;
-              padding: 0px;
-              margin: 0 10px 4px 0;
-            }
-            .follow_box img{
-              border: 0;
-            }
-            .follow_box a{
-              cursor: pointer;
-              color: #3B5998;
-              text-decoration: none;
-            }
-            .follow_box a:hover{
-              text-decoration: underline;
-            }
-            .follow_action{
-              padding: 0 0 0 8px;
-            }
-            .follow_box .follow_action .name{
-              line-height: 15px;
-              font-size: 14px;
-              font-weight: bold;
-            }
-            .follow_box .follow_button{
-              margin: 5px 0 0;
-            }
-            .follow_box .total{
-              min-width: 230px;
-              overflow: hidden;
-              display: block;
-            }
-            .follow_box .connections{
-              padding: 5px 0 4px 0px;
-              border-top: solid 1px #D8DFEA;
-              border-bottom: 1px solid #CCC;
-              min-height: 150px;
-            }
-            .follow_box .connections .connections_grid{
-              padding-top: 5px;
-              overflow: hidden;
-            }
-            .follow_box .clearfix{
-              zoom: 1;
-            }
-            .follow_box .connections .connections_grid .grid_item{
-              float: left;
-              margin:0px;
-              margin-right: 5px;
-              margin-bottom: 8px;
-              overflow: hidden;
-              width: 50px;
-            }
-            .follow_box .connections .connections_grid .grid_item .name{
-              font-size: 9px;
-              color: gray;
-              overflow: hidden;
-              padding-top: 2px;
-              text-align: center;
-              white-space: nowrap;
-            }
-            .follow_box .connections .connections_grid .grid_item img{
-              width: 48px;
-              height: 48px;
-            }
-            .follow_box .follow_widget_footer{
-              cursor: default;
-              width: 100%;
-              min-width: 230px;
-              overflow: hidden;
-            }
-            .follow_box .footer_border{
-              margin-top: 5px;
-            }
-            .follow_box .uiImageBlock{
-              line-height: 14px;
-            }
-            .follow_box .follow_widget_footer .footer_logo{
-              float: left;
-              margin-right: 5px;
-            }
-            .follow_box .follow_widget_footer .footer_text{
-              cursor: default;
-              color: #808080;
-              font-size: 9px;
-              float: left;
-            }
-            .follow_box .follow_widget_footer .footer_text a.footer_text_link{
-              color: #808080;
-            }
-            .follow_box .titlecase{
-              text-transform:capitalize;
-            }
-          </style>
-          <script>
-            /*
-* Twitter Follow Box jQuery Plugin
-* http://jobyj.in/twitter-follow-box-widget/
-* Copyright 2012, Joby Joseph
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-            (function(a){
-              a.fn.followbox=function(b){
-                function f(a,b){
-                  if(a>100)a=100;
-                  var c=new Array;for(var d=0;d<a;d++){
-                    c.push(b[d])}
-                  var e=c.join();
-                  return e}
-                var c=a(this);
-                var d="https://lh6.googleusercontent.com/-FnahS38iTbo/UK2l4ayjh8I/AAAAAAAADeg/kiJmxA2CfLc/icon_twitter.png";var e=a.extend({user:"kokoaespol",width:292,height:325,theme:"light",border_color:"#AAA",bg_color:"#fff",bg_image:"",title_color:"#3B5998",total_count_color:"#333",follower_name_color:"#BBB"},b);a.ajax({url:"http://api.twitter.com/1/users/lookup.json?screen_name="+e.user+"&include_entities=true",dataType:"jsonp",success:function(b){var g=e.width-2;var h=e.height-2;var i=e.height-115;var j=parseInt(e.width/55);var k=parseInt(i/69)+1;var l=j*k;c.html('<div class="follow_box_main" style="border: 1px solid #bbb; width: '+g+"px; height: "+h+'px;"><div class="follow_box_widget"><div class="follow_box"><div><div class="follow_top clearfix"><a href="http://www.twitter.com/'+e.user+'" target="_blank"><img class="profileimage img" src="'+b[0].profile_image_url_https+'" alt="'+b[0].name+'"></a><div class="follow_action"><div class="name_block"><a href="http://www.twitter.com/'+e.user+'" target="_blank"><span class="name titlecase">'+b[0].name.toLowerCase()+"</span> @"+b[0].screen_name+'</a></div><div class="follow_button"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name='+e.user+'&show_count=false&show_screen_name=false&lang=es" style="width:100px; height:20px;"></iframe></div></div></div><div class="connections"><span class="total"><span class="follow_box_follower_count">'+b[0].followers_count+'</span> personas siguen a <b class="titlecase">'+b[0].name.toLowerCase()+'</b></span><div class="connections_grid clearfix" style="height:'+i+'px;"></div></div></div><div style="height: 23px"><div class="follow_widget_footer"><div class="footer_border"><div class="clearfix uiImageBlock"><a class="footer_logo" target="_blank" href="http://jobyj.in/twitter-follow-box-widget"><img src="'+d+'"/></a><div class="footer_text"><a class="footer_text_link" target="_blank" href="http://jobyj.in/twitter-follow-box-widget">Twitter Social Plugin</a></div></div></div></div></div></div></div></div>');if(e.theme=="dark"){c.find(".follow_box_main").addClass("dark")}c.find(".follow_box_follower_count").text(c.find(".follow_box_follower_count").text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g,"$1,"));if(a.browser.msie&&!a.support.boxModel)a(".follow_box .connections").css("padding-bottom","14px");if(e.theme=="custom"){c.find(".follow_box_main").css({"border-color":e.border_color,"background-color":e.bg_color,"background-image":'url("'+e.bg_image+'")'});c.find(".follow_box a").css({color:e.title_color});c.find(".follow_box .total").css({color:e.total_count_color})}a.ajax({url:"https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name="+e.user,dataType:"jsonp",success:function(b){var d=f(l,b.ids);a.ajax({url:"https://api.twitter.com/1/users/lookup.json?user_id="+d+"&include_entities=true",dataType:"jsonp",success:function(b){for(var d=0;d<b.length;d++){var f=a.trim(b[d].name);var g=f.split(" ");var h='<div class="grid_item"><a href="http://twitter.com/'+b[d].screen_name+'" target="_blank"><img class="img" src="'+b[d].profile_image_url+'" alt=""><div class="name titlecase">'+g[0].toLowerCase()+"</div></a></div>";c.find(".connections_grid").append(h)}if(e.theme=="custom"){c.find(".connections .connections_grid .grid_item .name").css({color:e.follower_name_color})}}})}})}})}})(jQuery)
-          </script>
-          <script>
-            
-            $(document).ready(function(){
-              $('#twitterfollowbox').followbox({
-                
-                'user':'RONNEY41',
-                'height':'300',
-                'width':'260',
-                'theme':'custom',
-                'border_color':'#ffffff',
-                'bg_color':'#ffffff',
-                'bg_image':'',
-                'title_color':'#3B5998',
-                'total_count_color':'#333333',
-                'follower_name_color':'#BDBDBB'
-              }
-                                              );
-            }
-                             );
-          </script>
-          <div id="twitterfollowbox" class="follow-box-container">
-            
-            <a class="twitter-timeline"   width="260"href="https://twitter.com/kokoaespol" data-widget-id="474684389347971072">
-              Tweets por @kokoaespol
-            </a>
-          </div>
-          
-        </div>
-      </span>
-    </div>
-    
-  </div>
-  <script>
-    !function(d,s,id){
-      var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-      if(!d.getElementById(id)){
-        js=d.createElement(s);
-        js.id=id;
-        js.src=p+"://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js,fjs);
-      }}
-      (document,"script","twitter-wjs");
-  </script>
-  
-  
-</body>
+			<!-- portfolio items -->
+			<article id="portfolioContainer" class="container">
+
+				<div class="portfolio">
+
+					<div class="item coordinadores">
+						<a href="#kokoas">
+							<img alt="Image Popup" src="img/dochoa.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>Dr. Daniel Ochoa.</h3>
+								<p>Doctor en Ciencias Computacionales</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item coordinadores">
+						<a href="#kokoas">
+							<img alt="Image Expander" src="img/missvilla.jpg" class="img-responsive" />
+							<div class="external">
+								<h3>MSc. Marisol Villacrés.</h3>
+								<p>Master of Science in Human Computer Interaction Desing.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item cm">
+						<a href="#kokoas">
+							<img alt="Video Expander" src="img/3.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						<a>
+					</div>
+
+
+
+					<div class="item si">
+						<a href="#kokoas">
+							<img alt="Fullscreen Expander" src="img/4.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item diseñadores">
+						<a href="#kokoas">
+							<img alt="Video Popup" src="img/5.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item desarrolladores">
+						<a href="#kokoas">
+							<img alt="Image Expander" src="img/6.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+
+
+
+					<div class="item soporte">
+						<a href="#kokoas">
+							<img alt="Video Expander" src="img/7.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item instructores">
+						<a href="#kokoas">
+							<img alt="Fullscreen Expander" src="img/8.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item app">
+						<a href="#kokoas">
+							<img alt="External Expander" src="img/9.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item cm">
+						<a href="#kokoas">
+							<img alt="Video Expander" src="img/7.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item instructores">
+						<a href="#kokoas">
+							<img alt="Fullscreen Expander" src="img/8.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item hl">
+						<a href="#kokoas">
+							<img alt="External Expander" src="img/9.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item soporte">
+						<a href="#kokoas">
+							<img alt="Video Expander" src="img/7.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item difusion">
+						<a href="#kokoas">
+							<img alt="Fullscreen Expander" src="img/8.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+					<div class="item difusion">
+						<a href="#kokoas">
+							<img alt="External Expander" src="img/9.jpg" class="img-responsive" />
+							<div class="imgextras">
+								<h3>miembro kokoa</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</article>
+			<!-- /portfolio items -->
+
+
+			<!-- portfolio page -->
+			<article id="portfolioPage">
+				<div id="portfolioPageContainer" class="color">
+					<a href="#" class="portfolioClose"><!-- close portfolio page --></a>
+					<div id="portfolioPageContent"><!-- ajax content --></div>
+				</div>
+			</article>
+			<!-- /portfolio page -->
+
+
+		</section>
+		<!-- /PORTFOLIO -->
+		
+		<!-- TEAM -->
+		<section id="team">
+
+			<header>
+				<h2 data-animation="bounceIn">Equipo</h2>
+			</header>
+
+
+			<!-- team description -->
+			<article class="container text-left">			
+				<p class="dropcap">Muchos miembros kokoas se desempeñan en varios klsjdnfbsdfiubdsf sdfn sdf sfdg sfdg sfd g ergery tytuyj como en...</p>
+			</article>
+
+			<!-- CAROUSEL -->
+			<article class="container text-left">
+					<div class="owl-carousel column" data-navigation="false" data-singleitem="false" data-autoplay="false" data-animation="fadeIn">
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/inventio.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Caja Negra</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/cvr.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Google Summer of code</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/cajanegra.png" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Ratex</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/cajanegra.png" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Enjambre</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/cajanegra.png" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Kuatez</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="img/cvr.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>C.V.R.</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<span class="top-image"><img src="img/inventio.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Inventio</strong> 
+								
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-github"></a><!-- pinterest -->
+						</div>
+					</div>
+				</article>
+				<!-- /CAROUSEL -->
+
+		</section>
+		<!-- /TEAM -->
+
+
+
+
+
+
+
+		<!-- TESTIMONIALS -->
+		<section id="testimonials" class="color parallax" data-stellar-background-ratio="0.5" style="background-image:url(img/parallax_bg.jpg)">
+
+			<div class="container">
+
+				<!-- TESTIMONIALS -->
+				<div class="owl-carousel" data-navigation="false" data-singleitem="true" data-autoplay="true" data-animation="bounceIn">
+					<!-- testimonial 1 -->
+					<div class="item dragCursor">
+						<q>
+							“Libre no significa Gratis” – En referencia a la doble semántica de “free”: libre y gratis.
+						</q>
+						<!-- testimonial author -->
+						<cite>
+							<strong>Richard Stallman</strong> 
+						</cite>
+					</div>
+
+					<!-- testimonial 2 -->
+					<div class="item dragCursor">
+						<q>
+							Utilizamos Open Source en nuestros servidores porque es una manera más de controlar nuestro propio destino.
+						</q>
+						<!-- testimonial author -->
+						<cite>
+							<strong>By DiBona (Google Admin)</strong>
+						</cite>
+					</div>
+
+					<!-- testimonial 3 -->
+					<div class="item dragCursor">
+						<q>
+							A Microsoft no le gusta que escapemos a su poder.
+						</q>
+						<!-- testimonial author -->
+						<cite>
+							<strong>Richard Stallman</strong> 
+						</cite>
+					</div>
+
+					<!-- testimonial 4 -->
+					<div class="item dragCursor">
+						<q>
+							Si compila está bien, si hecha a andar es perfecto.
+						</q>
+						<!-- testimonial author -->
+						<cite>
+							<strong>Linus Torvals</strong>
+						</cite>
+					</div>
+
+					<!-- testimonial 5 -->
+					<div class="item dragCursor">
+						<q>
+							El software es como le sexo, es mejor si es libre.
+						</q>
+						<!-- testimonial author -->
+						<cite>
+							<strong>Linus Torvals</strong> 
+						</cite>
+					</div>
+				</div>
+				<!-- /TESTIMONIALS -->
+
+			</div>
+
+		</section>
+		<!-- /TESTIMONIALS -->
+		
+		<!-- CONTACT FORM -->
+		<section id="contact">
+
+			<header>
+				<h2 data-animation="bounceIn">¿Quieres pertencer a Kokoa?</h2>
+				<h3>Sé un kokoa-aspirante!</h3>
+			</header>
+
+			<article class="container">
+
+				<!-- MESSAGE SENT -->
+				<div id="alertOk" class="alert alert-success fade in">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					<span id="alertOkResponse"><strong>Thank You!</strong> Message sent!.</span>
+				</div>
+				<!-- /MESSAGE SENT -->
+
+				<!-- MESSAGE NOT SENT -->
+				<div id="alertErr" class="alert alert-danger fade in">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+					<span id="alertErrResponse"><strong>Not Sent!</strong> Please complete all fields.</span>
+				</div>
+				<!-- MESSAGE NOT SENT -->
+
+				<div class="row text-left">
+					<div class="col-md-6">
+
+						<!-- EMAIL FORM -->
+						<form id="emailForm" class="form-horizontal" method="post" action="php/contact.php">
+							<input type="hidden" name="action" value="email_send" />
+
+							<!-- name -->
+							<div class="form-group">
+								<label for="name" class="col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+									<input required class="form-control" type="text" id="name" name="name" value="" />
+								</div>
+							</div>
+
+							<!-- email -->
+							<div class="form-group">
+								<label for="email" class="col-sm-2 control-label">Email</label>
+								<div class="col-sm-10">
+									<input required class="form-control" type="email" id="email" name="email" value="" />
+								</div>
+							</div>
+
+							<!-- message -->
+							<div class="form-group">
+								<label for="message" class="col-sm-2 control-label">Message</label>
+								<div class="col-sm-10">
+									<textarea required class="form-control" id="message" name="message" rows="5"></textarea>
+								</div>
+							</div>
+
+							<!-- send button -->
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-custom">SEND MESSAGE</button>
+								</div>
+							</div>
+						</form>
+						<!-- EMAIL FORM -->
+
+					</div>
+
+					<div class="col-md-6">
+
+						<h4>Sed ut perspiciatis unde omnis iste natus error sit voluptatema accusantium. <a href="#footer" class="gmapShow scrollTo">Find us on GoogleMap</a>.</h4>
+						<p class="animate_fade_in">
+							<i class="fa fa-map-marker rounded-icon"></i> km 35 via perimetralsldn sdhbskjfbklsbfkjds
+						</p>
+						<p class="animate_fade_in">
+							<i class="fa fa-envelope rounded-icon"></i> kokoa.espol@gmail.com
+						</p>
+						<p class="animate_fade_in">
+							<i class="fa fa-phone rounded-icon"></i> 042-269-970
+						</p>
+					</div>
+				</div>
+
+
+			</article>
+		</section>
+		<!-- /CONTACT FORM -->
+
+
+
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+
+			<!-- google map -->
+			<div id="gmap"></div><a href="#" class="gmapClose"></a>
+
+			<!-- footer buttons -->
+			<div id="footerContent">
+				<div class="container">
+
+					<h2 data-animation="bounceIn">Estamos en.</h2>
+					<h3>Espol - Ecuador</h3>
+
+					<!-- 
+						paragraph - short description 
+						OR
+						<div class="spacer"></div>
+					-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					<div class="social">
+					<!-- google map -->
+						<a href="#" class="gmapShow socialbtn gmap"><i class="fa fa-map-marker"></i>Map</a>
+						<!-- facebook -->
+						<a target="_blank" href="https://www.facebook.com/kokoaespol" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
+						<!-- twitter -->
+						<a target="_blank" href="https://twitter.com/kokoaespol" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>
+						<!-- google plus -->
+						<a target="_blank" href="https://plus.google.com/116318267088941716895/about" class="socialbtn google"><i class="fa fa-google-plus"></i>Google Plus</a>
+						<!-- twitter -->
+						<a target="_blank" href="https://www.youtube.com/user/kokoaespol" class="socialbtn google"><i class="fa fa-youtube"></i>Youtube</a>
+						
+					</div>
+
+				</div>
+			</div>
+			<!-- /footer buttons -->
+
+		</footer>
+		<!-- /FOOTER -->
+
+
+		<!-- CORE JS FRAMEWORK--> 
+		<script type="text/javascript" src="js/pace.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js/masonry.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script async type="text/javascript" src="js/modernizr.min.js"></script>
+		<!-- /CORE JS FRAMEWORK--> 
+
+		<!-- PLUGINS -->
+		<script type="text/javascript" src="js/jquery.fitvids.min.js"></script>
+		<script type="text/javascript" src="js/jquery.appear.js"></script>
+		<script type="text/javascript" src="js/jquery.countTo.js"></script>
+		<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nav.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.min.js"></script>
+		<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.pack.js"></script>
+		<script type="text/javascript" src="js/iscroll.js"></script>
+		<script type="text/javascript" src="js/jquery.zoom.min.js"></script>
+		<!-- /PLUGINS -->
+
+		
+		
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script async type="text/javascript" src="js/shop.js"></script>
+		<script async type="text/javascript" src="js/contact.js"></script>
+		<script async type="text/javascript" src="js/styleswitcher.js"></script>
+	</body>
 </html>
